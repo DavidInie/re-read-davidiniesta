@@ -1,0 +1,46 @@
+body {
+    font-family: "STIX Two Text"; /* Aplica la fuente STIX Two Text a toda la web*/
+    color: rgb(0, 0, 0); /* Establece el color del texto en negro */
+    text-align: center; /* Centra el texto*/
+    margin: 0; /* Elimina el margen del navegador */
+    padding: 0; /* Elimina el relleno del navegador */
+}
+
+.header{
+    background-color: rgb(13, 82, 35);
+    color: white;
+    text-align: left;
+}   
+
+#h1Re-Read{
+    font-size: 20px;
+    display: block;
+    padding: 15px ;
+}
+
+#h1re{
+    color:black;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#pem{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 30px;
+}
+
+
+
+.libro {
+    background-color: rgb(13, 82, 35); /* Fondo verde */
+    color: white; /* Texto blanco */
+    font-size: 18px; /* Tamaño de letra */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px auto; /* Espaciado entre bloques y centrado */
+    width: 100%; /* Ancho del bloque */
+}
