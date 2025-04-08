@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    margin-right: 0;
+    padding: 0%;
+    box-sizing: border-box; 
+}
 body {
     font-family: "STIX Two Text"; /* Aplica la fuente STIX Two Text a toda la web*/
     color: rgb(0, 0, 0); /* Establece el color del texto en negro */
     text-align: center; /* Centra el texto*/
     margin: 0; /* Elimina el margen del navegador */
     padding: 0; /* Elimina el relleno del navegador */
+    overflow-x: hidden;
 }
 
 .header{
@@ -34,13 +41,48 @@ body {
     margin-top: 30px;
 }
 
-
+#h5top{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+}
 
 .libro {
     background-color: rgb(13, 82, 35); /* Fondo verde */
     color: white; /* Texto blanco */
     font-size: 18px; /* Tamaño de letra */
     padding: 10px; /* Espaciado interno */
-    margin: 10px auto; /* Espaciado entre bloques y centrado */
+    margin: 10px; /* Espaciado entre bloques y centrado */
     width: 100%; /* Ancho del bloque */
+    margin-right: 0px; /* Margen derecho */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.h{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 90px;
+    
+}
+
+.imgli{
+    width: 15%;
+    margin: 10px;
+    text-align: left;
+    margin-left: 0px;
+
+
+}
+
+.imglibros{
+    width: 50%;
+    margin: 0px;
+
+
+}
+
+.textli{
+    font-size: 10px;
+    text-align: center;
 }

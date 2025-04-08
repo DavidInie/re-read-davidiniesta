@@ -20,40 +20,87 @@
         <p id="pem">En Re-Read podrás encontrar libros de segunda mano en perfecto estado. También vender los tuyos. Porque siempre hay libros leídos y libros por leer. Por eso Re-compramos y Re-vendemos para que nunca te quedes sin ninguno de los dos. </p><!--texto del contenido-->
     </div><!--cierra div de contenido-->
 
-
-    
-      <div class="contenidonav"><!--abre div de contenido-->
-        <div class="container-fluid"> <!--abre div de container text-center-->
-              <div class="row"><!--abre row-->
-                 <div class="col-sm-12 col-lg-7"><!--sm tamaño movil lg tamaño ordenador, abre div texto-->
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Active</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                       
-                      </ul>
-                    </div><!--cierra div texto-->   
-        <div class="col-sm-12 col-lg-3">
-            <h5>Top ventas</h5>
-            <div class="libros">
-                <div class="libro">Cien años de soledad.</div>
-                <div class="libro">Crónica de una muerte anunciada.</div>
-                <div class="libro">El otoño del patriarca.</div>
-                <div class="libro">El general en su laberinto.</div>
-            </div>
-
+    <div class="contenidonav"><!--abre div de contenido-->
+      <div class="container-fluid"> <!--abre div de container text-center-->
+      <div class="tab-content" id="myTabContent"><!--abre mytab content-->
+      <div class="row"><!--abre row-->
+        <div class="col-sm-12 col-lg-8"><!--sm tamaño movil lg tamaño ordenador, abre div texto-->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Re-Read</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Libros</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">eBooks</button>
+            </li>
+          </ul>
+        </div><!--CIERRA div texto-->
+                      
+        <div class="row">
+          <div class="col-sm-12 col-lg-8">
+              <!-- Contenido principal -->
+              <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                      <h2 class="h">Nunca la lectura ha sido tan necesaria</h2>
+                      <p class="h">En estos tiempos difíciles Re-Read se suma al mensaje de #yomequedoencasa por el bien común de la sociedad.</p>
+                      <h3 class="h">Reduce & Reuse & Read</h3>
+                      <p class="h">Somos la librería Eco-Friendly — Re-Read nació pensando en verde con el objetivo de compartir una pasión, la lectura y para expresar una preocupación: si queremos construir un futuro sostenible, es necesario que reduzcamos el consumo y que reutilicemos cuantos más objetos materiales mejor.</p>
+                  </div>
+                  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                      <h3 class="h"><strong>Todos los libros tienes el mismo precio</strong></h3>
+                      <p  class="h">Libros casi nuevos a un precio casi imposible.</p>
+                      <img class="imgli" src="./img/1-libro-3€.gif">
+                      <img class="imgli" src="./img/2-libros-5€.gif">
+                      <img class="imgli" src="./img/5-libros-10€.gif">
+                      <h3  class="h"><strong>¿Te cambias de piso? ¿Tienes que vaciar la casa? ¿O sencillamente necesitas algo más de espacio?</strong></h3>
+                      <p class="h">En Re-Read compramos tus libros para darles una segunda vida. Los compramos todos al mismo precio: 0,20 euros. Siempre hay libros leídos y libros por leer. Por eso Re-compramos y Re-vendemos para que nunca te quedes sin ninguno de los dos.</p>
+                  </div>
+                  <div class="tab-pane fade show active" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                      <h3 class="h"><strong>Toda la actualidad en eBook</strong></h3>
+                      <div class="row">
+                          <div class="col-md-4">
+                              <img class="imglibros" src="./img/cell.jpeg" alt="Cell">
+                              <p class="textli">A través de los teléfonos móviles se envía un mensaje que convierte a todos en esclavos asesinos...</p>
+                          </div>
+                          <div class="col-md-4">
+                              <img class="imglibros" src="./img/elciclodelhombrelobo.jpeg" alt="El ciclo del hombre lobo">
+                              <p class="textli">Una escalofriante revisión del mito del hombre lobo por el rey de la literatura de terror...</p>
+                          </div>
+                          <div class="col-md-4">
+                              <img class="imglibros" src="./img/elresplandor.jpeg" alt="El resplandor">
+                              <p class="textli">Esa es la palabra que Danny había visto en el espejo. Y, aunque no sabía leer, entendió que era un mensaje de horror...</p>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-4">
+                              <img class="imglibros" src="./img/doctorsleep.jpeg" alt="Doctor Sueño">
+                              <p class="textli">Una novela que entusiasmará a los millones de lectores de El resplandor y que encantará...</p>
+                          </div>
+                          <div class="col-md-4">
+                              <img class="imglibros" src="./img/mientrasescribo.jpeg" alt="Mientras escribo">
+                              <p class="textli">Pocas veces un libro sobre el oficio de escribir ha resultado tan clarificador, útil y revelador.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+              <!-- Botones de la derecha -->
+              <h5 id="h5top">Top ventas</h5>
+              <div class="libro">Cien años de soledad.</div>
+              <div class="libro">Crónica de una muerte anunciada.</div>
+              <div class="libro">El otoño del patriarca.</div>
+              <div class="libro">El general en su laberinto.</div>
+          </div>
         </div>
-            
-        </div><!--cierra row-->
-        </div><!--cierra div de container text-center-->  
+        
+      </div><!--CIERRA row-->
+      </div><!--CIERRA mytab content-->        
+      </div><!--CIERRA CONTAINERFLUID-->
+    </div><!--CIERRA div de contenido-->
 
-    
 
 </body><!--cierra body-->
 </html><!--cierra html-->
